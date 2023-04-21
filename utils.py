@@ -1,6 +1,6 @@
 import openai
 
-API_KEY = "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"
+API_KEY = "abcdxyz"     #replace it with your own api key 
 
 openai.api_key = API_KEY
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     while choice != 0:
         prompt = openai
 
-API_KEY = "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"
+API_KEY = "abcdxyz"           #replace it with your own api key
 
 openai.api_key = API_KEY
 
