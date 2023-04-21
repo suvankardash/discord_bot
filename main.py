@@ -10,11 +10,10 @@ import typing
 import asyncio
 
 # Setting up the global variables
-GUILD_ID=1098489281380614226
+GUILD_ID=12345678                         #replace this value with your own guild/server id
 MY_GUILD = discord.Object(id=GUILD_ID)  # replace with your guild id
 AI_LOADED = False
-BOT_TOKEN="MTA5ODQ5MDM3MDcxNjg2ODYzOA.GAd92j.q3fTQNtaf__KBj4ZbQzKp2zrG-CmeEtnbVS6F8"/prom
-
+BOT_TOKEN="abcdxyz"/prom                                         #replacing it with your own bot token
 
 class MyClient(discord.Client):
     def __init__(self, *, intents: discord.Intents):
