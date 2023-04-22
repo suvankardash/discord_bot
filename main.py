@@ -118,3 +118,5 @@ async def prompt(interaction: discord.Interaction, prompt: str):
     embed.timestamp = interaction.created_at
 
     return await interaction.followup.send(embed=embed)
+
+client.run(BOT_TOKEN)
